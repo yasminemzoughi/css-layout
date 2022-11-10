@@ -1,0 +1,109 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*nav part*/
+.firstimg{
+    height:33%;
+    width: 268px;
+  margin: 20px;
+}
+nav{
+    display:flex;
+    padding:70;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+}
+ul{
+    display: flex; 
+}
+ul>div{
+    color: #00b39b;
+}
+li{list-style: none;
+margin: 2rem;
+text-align: left; 
+padding-left: 140px;
+}
+a{
+    text-decoration: none;
+ padding: 0 0.6em;
+ color: #ababab;
+ display: block;
+}
+.intro{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  
+}
+.intro img{
+    height: 40px;
+    width: 39px;
+    margin: 442 400;
+    text-align: center;
+    padding-left: 50%;
+}
+.intro div{
+    display: flex;
+    padding: 3%;
+    line-height: 1,75;
+    justify-content: space-around
+}
+.intro h1{
+    font-size: 36px;
+    color: #00b39b;
+    padding: 2%;
+    font-weight:lighter ;
+}
+.intro div p{
+    width: 45%;
+    font-weight: 400;
+}
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 10%;
+    justify-content: space-between;
+}
+.country{
+    margin-bottom: 2%;
+    border-radius:2%;
+}
+.country img{
+    border-top-left-radius:2% ;
+    border-top-right-radius:2% ;
+}
+.country div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+}
+.country div button{
+    color:#fff;
+    background-color: #3d83df;
+    padding: 2%;
+    border-radius: 5px;
+    border:none;
+}
+.country:hover{
+    box-shadow:0 4px 8px 0 grey, 0 6px 20px 0 black;
+    cursor:pointer ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
